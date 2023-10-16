@@ -1,5 +1,4 @@
 #Extract heading scores and links of ycombinator site 
-import re
 from bs4 import BeautifulSoup
 import requests
 response=requests.get("https://news.ycombinator.com/")
